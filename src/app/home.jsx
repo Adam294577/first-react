@@ -18,11 +18,7 @@ const Page = () => {
         >
           名單管理
         </NavLink>
-        <NavLink
-          className='w50 h50 flex-center bg-[#CCC] rounded-xl text-xl mxa'
-          to='/userlist'
-          end
-        >
+        <NavLink className='w50 h50 flex-center bg-[#CCC] rounded-xl text-xl mxa' to='/ppt' end>
           自我介紹簡報
         </NavLink>
       </nav>
