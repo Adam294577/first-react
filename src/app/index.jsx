@@ -5,6 +5,7 @@ import UserList from './userlist';
 import Learn from './learn';
 import Count from './count';
 import NotFound from './NotFound';
+import PPTLayout from './pptLayout';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/learn' element={<Learn />} />
         <Route path='/count' element={<Count />} />
         <Route path='/userlist' element={<UserList />} />
+        <Route path='/pptLayout' element={<PPTLayout />} />
         <Route path='user'>
           <Route path=':userName' element={<User />} />
         </Route>
