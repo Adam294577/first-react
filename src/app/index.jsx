@@ -26,6 +26,7 @@ const App = () => {
           <Route path='intro' element={<Intro />} />
           <Route path='work' element={<Work />} />
           <Route path='end' element={<End />} />
+          <Route path=':NotDefinedPage' element={<Start />} />
         </Route>
         <Route path='*' element={<NotFound />} />
       </Routes>
