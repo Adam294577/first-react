@@ -10,7 +10,6 @@ import PPTLayout from './ppt';
 import Start from './ppt/start';
 import Intro from './ppt/intro';
 import Work from './ppt/work';
-import BeforeFrontend from './ppt/beforefrontend';
 import End from './ppt/end';
 
 const App = () => {
@@ -25,7 +24,6 @@ const App = () => {
         <Route path='/ppt' element={<PPTLayout />}>
           <Route index path='start' element={<Start />} />
           <Route path='intro' element={<Intro />} />
-          <Route path='beforefrontend' element={<BeforeFrontend />} />
           <Route path='work' element={<Work />} />
           <Route path='end' element={<End />} />
         </Route>
